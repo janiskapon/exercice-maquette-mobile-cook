@@ -4,33 +4,93 @@
   padding: 0;
 }
 
-html {
-  font-size: 16px;
+body {
+  -webkit-font-smoothing: antialiased; /* ???? */
+  -moz-osx-font-smoothing: grayscale; /* ???? */
+  text-rendering: optimizeLegibility; /* ???? */
+  max-width: 320px;
+  margin: auto;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+header,
+main {
+  text-align: center;
+}
 
-  font-size: 1rem;
-  line-height: 1.5rem;
+header,
+nav {
+  padding-top: 15px;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 main {
-  background-color: #EAEDE6;
+  background-color: #eaede6;
+  padding-top: 5px;
 }
 
 a {
   color: inherit;
-  font-size: 16px;
-  font-family: 'Sorts Mill Goudy', serif;
 }
 
-.recipeday {
-  font-family: 'Libre Franklin', sans-serif;
+.header-recipeday {
+  font-family: "Libre Franklin", sans-serif;
   font-size: 11px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-block;
   font-weight: 700;
+}
+
+.header-title {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.header-subtitle {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.header-author {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.main-title {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+.main-article {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer-title {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 20px;
+  line-height: 1.2;
+  padding-top: 20px;
+}
+
+.footer-links {
+  font-family: "Libre Franklin", sans-serif;
+  padding-bottom: 20px;
 }
 
 img,
@@ -38,6 +98,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  margin-top: 15px;
 }
 
 footer {
